@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* --background: linear-gradient(#4a403a, #7e370c, #b05e27, #d4ac2b, #ffce45); */
+  --background: #4a403a;
+  --color: #ffffff;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--color);
+}
+
+header,
+footer,
+.circle,
+.btn {
+  background: var(--background);
+}
+
+header,
+footer,
+.circle {
+  display: flex;
+  align-items: center;
+}
+
+footer,
+.circle {
+  justify-content: center;
+}
+
+header,
+footer {
+  height: 5rem;
+}
+
+header {
+  padding-left: 2rem;
+}
+
+main {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.circle {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #d4ac2b;
+}
+
+.btn {
+  width: 8rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  border-style: none;
+  font-family: inherit;
+  color: var(--color);
+  background-color: #7e370c;
+}
+
+.even {
+  background-color: #d4ac2b;
+}
+.odd {
+  background-color: #b05e27;
+}

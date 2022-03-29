@@ -1,0 +1,28 @@
+.btn {
+  width: 8rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  border-style: none;
+  font-family: inherit;
+  color: var(--color);
+  background-color: #7e370c;
+}
+
+/* .btn {
+  background-color: chocolate;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  margin: 1rem;
+  font-family: inherit;
+  color: white;
+  font-size: inherit;
+  cursor: pointer;
+} */
+/* .primary {
+  background-color: chocolate;
+}
+.secondary {
+  background-color: rgb(18, 8, 1);
+} */

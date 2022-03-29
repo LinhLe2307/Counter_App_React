@@ -1,0 +1,17 @@
+.circle {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  /* background-color: #d4ac2b; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.even {
+  background-color: #d4ac2b;
+}
+.odd {
+  background-color: #b05e27;
+}
